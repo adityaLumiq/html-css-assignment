@@ -1,0 +1,40 @@
+.card{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    max-width: 25%;
+    background-color: lightgrey;
+    display: flex;
+    height: 150px;
+    border: 2px solid black
+}
+.profile_pic{
+    margin-right: 10px;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+}
+.profile_pic img{
+    width: 100%;
+    border: 2px solid black;
+    margin: 15px 5px
+}
+.profile_details{
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: ; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.name_details{
+    padding-bottom: 20px;
+}
+.other details{
+    padding: 0;
+    margin: 0;
+}
+.name, .job, .tele, .email{
+    padding: 0;
+    margin: 0;
+}
+
